@@ -6,10 +6,18 @@
                     <div class="nav navbar-nav pull-left">
                         <div class="logo">
                             <a href="catalog">
-                                <img class="img-responsive" ng-src="{{user.Company.LogoUrl}}" style="max-width: 50%;"/>
+                                <img class="img-responsive" ng-src="{{user.Company.LogoUrl}}" style="max-width: 100%;"/>
                             </a>
                         </div>
                     </div>
+					<div class="nav navbar-nav pull-right">
+                        <div class="logo">
+                            
+                                <img class="img-responsive" style="max-width: 100%;" src="css/images/SS_logo_for_banner.jpg">
+                            
+                        </div>
+                    </div>
+					<!--
                     <ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
                         <li ng-repeat="t in tree" ng-class="{'active': isInPath('{{t.InteropID}}'),'dropdown': t.SubCategories.length > 0}">
                             <a ng-if="t.SubCategories.length > 0" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="false" style="font-size: 16px;">{{t.Name}}</a>
@@ -22,6 +30,7 @@
                             </ul>
                         </li>
                     </ul>
+					-->
                 </div>
             </section>
         </nav>

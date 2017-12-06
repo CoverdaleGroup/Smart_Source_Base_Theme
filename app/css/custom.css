@@ -1,6 +1,6 @@
 /*
 Static file for Theme changes
-Theme name: Jackson Lewis
+Theme name: Smart Source Base Theme
 Version: 1.0
 Template: Base
 Created: 10/14/16
@@ -51,7 +51,7 @@ Authors: Coverdale Group
 
 .header-navigation {
     height: 30px;
-    background-color: #f7f7f7;
+    background-color: #e6e6e6;
     color: #ffffff;
 }
 
@@ -83,7 +83,7 @@ Authors: Coverdale Group
     margin-bottom: -1px;
 }
 
-.category-navigation {margin:45px auto 0}
+.category-navigation {margin:45px auto;}
 
 .category-navigation .navbar .container .navbar-nav.pull-right li a,
 .category-navigation .navbar .container-view .navbar-nav.pull-right li a {
@@ -167,9 +167,9 @@ body {
 
 
 body a {
-    color: #0877A7;
+    color: #000;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 a:hover, a:visited, a:link, a:active
@@ -280,8 +280,9 @@ input, button, select, textarea {
 
 .navbar-default {
 
-    background-color: #0877a7;
-    border-color: #0877a7;
+
+    background-color: #5d5d5d;
+    border-color: #5d5d5d;
 }
 
 .navbar-default .navbar-nav > li > a {
