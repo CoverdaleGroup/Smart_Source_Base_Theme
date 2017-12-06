@@ -67,7 +67,8 @@ function carouselFilter() {
             if(field.Name.toUpperCase().indexOf(name.toUpperCase()) > -1){
                 var slide = {
                     text: field.UploadInstructions,
-                    image: field.File.Url,
+                    //image: field.File.Url,
+					image: 'css/images/Fields-Home-Banner-Cropped.jpg',
                     link: field.Label
                 };
                 if (slide.link.toUpperCase().indexOf("NONE") > -1) {
